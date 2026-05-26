@@ -1,20 +1,14 @@
 export const site = {
   name: "Serenade Singers",
-
   tagline: "One Thing. One Voice.",
-
   description:
-    "A modern premium choir and music community focused on vocal training, performances, webinars, music classes, and meaningful musical experiences.",
+    "Serenade Singers is a non-profit musical organization focused on choir music, harmony, and vocal artistry.",
 
-  facebook:
-    "https://www.facebook.com/profile.php?id=61583947395191",
+  email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "",
+  facebook: process.env.NEXT_PUBLIC_FACEBOOK_LINK || "",
+  instagram: process.env.NEXT_PUBLIC_INSTAGRAM_LINK || "",
+  telegram: process.env.NEXT_PUBLIC_TELEGRAM_LINK || "",
+  appsScriptUrl: process.env.NEXT_PUBLIC_APPS_SCRIPT_URL || "",
 
-  instagram:
-    "https://instagram.com/YOUR_INSTAGRAM",
-
-  telegram:
-    "https://t.me/+CdYB99GtiGhjYzFl",
-
-  signupForm:
-    "https://docs.google.com/forms/d/e/1FAIpQLSeplk63HLXrZMWWuNsBWlTY9i0WHH0c9GpFTk1_IoB9_OdmVg/viewform",
+  signupForm: "/signup",
 };
